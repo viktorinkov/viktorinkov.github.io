@@ -376,8 +376,17 @@ footer {
   .bio {
     margin-top: -7rem;
     width: 20.5rem;
+    margin: 1rem;
   }
 
+    /* You can adjust the flip card size and spacing here */
+    .flip-card {
+      width: 300px; /* Reduce the width */
+      height: 300px; /* Reduce the height */
+      margin-right: 1rem; /* Add margin to create spacing */
+      margin-top: 3rem;
+      padding: 5%;
+    }
   .more-about {
     margin-top: 2rem;
     padding: 1rem 3.5rem;
@@ -488,3 +497,5 @@ footer {
 
   transform: rotateY(180deg);
 }
+
+
