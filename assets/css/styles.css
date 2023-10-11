@@ -489,7 +489,7 @@ footer {
 
 /* Style the back side */
 .flip-card-back {
-  color: white;
+  background-color: var(--primary-color);
   overflow: hidden;
 
   border-radius: 11px; /* Add border-radius here */
