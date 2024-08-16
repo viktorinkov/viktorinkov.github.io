@@ -179,14 +179,16 @@ nav ul li {
 }
 
 .project-pic {
-  width: 65%;
-  height: 60%;
+  width: 100%; /* Ensure all images take up full width of their containers */
+  height: auto; /* Maintain aspect ratio */
+
 }
 
 .projects-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  justify-content: center; /* Center the project cards */
+  gap: 1rem; /* Added gap between projects */
 }
 
 .projects-title {
@@ -198,6 +200,10 @@ nav ul li {
   text-align: center;
   width: 21.875rem;
   padding: 1rem;
+  margin: 0.5rem; /* Added margin to separate project cards */
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
 }
 
 .project-container p {
@@ -415,6 +421,17 @@ footer {
 
   .contact-form-container {
     max-width: 23.75rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .project-container {
+    width: 100%; /* Make the project container take full width on small screens */
+    margin-bottom: 2rem; /* Add more space between projects on small screens */
+  }
+
+  .project-pic {
+    width: 100%; /* Ensure image takes full width on small screens */
   }
 }
 
