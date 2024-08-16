@@ -10,7 +10,7 @@
             "name": "Launch Chrome",
             "request": "launch",
             "type": "chrome",
-            "file": "/Users/viktorminchev/Development/developer-portfolio/index.html",
+            "file": "/Users/viktorminchev/Development/viktorinkov.github.io/index.html",
             "webRoot": "${workspaceFolder}"
         },
     ]
