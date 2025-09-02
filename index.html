@@ -1,260 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!--CSS Styles -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
-
-    <!-- Animate CSS CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <title>Viktor Minchev | App Developer</title>
-  </head>
-
-  <body>
-    <!-- Navbar -->
-    <nav>
-      <h1>Viktor Minchev</h1>
-      <ul class="navigation">
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-      </ul>
-      <button class="burger-menu" id="burger-menu">
-        <ion-icon class="bars" name="menu-outline"></ion-icon>
-        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
-      </button>
-    </nav>
-    
-    
-    <!-- Hero Section -->
-    <section class="hero" id="about">
-
-              <!-- Fliping Avatar Card-->
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front"> 
-              <img src="assets/images/face_pic.webp"    alt="Avatar" style="width:300px;height:300px;" >
-            </div>
-            <div class="flip-card-back">
-              <img src="assets/images/avatar.png"    alt="Avatar" style="width:300px;height:300px;" >
-            </div>
-          </div>
-        </div>
-      <div class="bio animate__animated animate__shakeX">
-        <h2 class="bio-title">About Me</h2>
-        <p class="bio-text">
-            Hi, I am Viktor! I am a freshman at the University of Califonia, Santa Barbara. Full of passion and energy, I try my best to better myself daily. Check out my personal portofolio! 
-        </p>
-        <a href="https://docs.google.com/document/d/1QOUM_V0HvjIEoGxv-QMAdai8rX8baiDew6kcWc79St4/edit" target="_blank" class="project-link">View Resume</a>
-      </div>
-    </section>
-
-    <!-- Skills section -->
-    <section class="skills" id="skills">
-      <h2 class="skill-header">My Top Skills</h2>
-      <div class="skills-wrapper">
-        <div class="first-set animate__animated animate__pulse">
-          <img
-            src="assets/icons/flutter.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/firebase.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/C_sharp.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-        </div>
-
-        <div class="second-set animate__animated animate__pulse">
-          <img
-            src="assets/icons/unity.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/sql-database-generic-svgrepo-com.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <!-- <img
-            src="assets/icons/icons8-javascript.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          /> -->
-        </div>
-      </div>
-    </section>
-  </section>
-  <!-- More about -->
-  <section class="more-about">
-    <h2>More About Me</h2>
-    <p>
-        The most important thing for me as a developer is to make useful products. 
-        I often seek problems in my everday life and try to fix them through my tech skills. 
-        My life goal is to make a positive change to the world!
-    </p>
-    <p>
-        In my free time, I like to watch movies and lift weights.
-    </p>
-    <p>
-      Well, enough talk. Time to show my work!
-    </p>
-  </section>
-    <!-- <img src="http://ghchart.rshah.org/viktorinkov" alt="Github chart" /> -->
-<!-- Add github later -->
-    
-    <!-- Projects section -->
-    <section class="projects" id="projects">
-      <h2 class="projects-title">Some of my Recent Projects</h2>
-      <div class="projects-container">
-        <div class="project-container project-card">
-          <img
-            src="assets/images/bikespotter.png"
-            alt="bike-spotter"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">BikeSpotter</h3>
-          <p class="project-details">
-            BikeSpotter helps you find your parked bike. Using your iPhone's sensors, it tracks where you last biked and stores that location. Never lose your bike again 😊🚲
-          </p>
-          <a href="https://apps.apple.com/in/app/bikespotter/id6480269331" target="_blank" class="project-link">Check it Out</a>
-        </div>
-      </div>
-      <div class="projects-container">
-        <div class="project-container project-card">
-          <img
-            src="assets/images/precisely_math.png"
-            alt="expense-tracker"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Precisely Math</h3>
-          <p class="project-details">
-            Precisely Math is an app that teaches students mental math. It has progressively harder topics and allows you to track your daily progress. And it is capybara themed 😎
-          </p>
-          <a href="https://apps.apple.com/th/app/precisely-math/id6443746435" target="_blank" class="project-link">Check it Out</a>
-        </div>
-        <div class="project-container project-card">
-          <img
-            src="assets/images/learn_2_dive.webp"
-            alt="learn-2-dive"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Learn 2 Dive</h3>
-          <p class="project-details">
-              A simple game that teaches you diving signals. It's made with Unity and it is my first monetized app. Now, go learn 2 dive 🌊🤿
-          </p>
-          <a href="https://play.google.com/store/apps/details?id=com.Viktorinkov.Learn2Dive&hl=en_US&gl=US" target="_blank" class="project-link">Check it Out</a>
-        </div>
-        <div class="project-container project-card">
-          <img
-            src="assets/images/wpf.png"
-            alt="snippet-manager"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Snippet Manager</h3>
-          <p class="project-details">
-            A WPF app with an SQL database for managing programming snippets. It allows you to view and bookmark snippets by other users so that you can learn more about SQL. Its material design theme is also 🤩
-          </p>
-          <a href="https://github.com/viktorinkov/Final-Project" target="_blank" class="project-link">Check it Out</a>
-        </div>
-      </div>
-    </section>
-    <!-- Contact section -->
-    <section class="contact" id="contact">
-      <h2>Get In Touch With Me</h2>
-      <div class="contact-form-container">
-        <div class="contact-form">
-          <form action="https://formsubmit.co/vikitominchev@gmail.com" method="POST">
-            <div class="form-control">
-              <label for="name">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Enter Your Name"
-                class="input-field"
-                required
-              />
-            </div>
-            <div class="form-control">
-              <label for="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Enter Your Email"
-                class="input-field"
-                required
-              />
-            </div>
-            <div class="form-control">
-              <label for="message">Message</label>
-              <textarea
-                id="message"
-                cols="60"
-                rows="10"
-                placeholder="Enter Your Message"
-                name="message"
-                class="input-field"
-                required
-              ></textarea>
-            </div>
-            <input
-              type="submit"
-              value="Submit"
-              id="submit-btn"
-              class="submit-btn"
-            />
-          </form>
-        </div>
-      </div>
-    </section>    
-
-
-    <!-- Footer section -->
-    <footer>
-      <p class="copy">
-        Built with &#x2661; by
-        <a href="https://www.instagram.com/viktorinkovski/" target="_blank"
-          >Viktor Minchev</a
-        >
-      </p>
-    </footer>
-
-    <!-- Website scripts -->
-    <script src="assets/js/app.js"></script>
-
-    <!-- Ion icons scripts -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="3; url=https://minchev.dev">
+    <title>Viktor Minchev - Website Moved</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            max-width: 500px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 30px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+        a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+        .loading {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+    </style>
+    <script type="text/javascript">
+        setTimeout(function() {
+            window.location.href = "https://minchev.dev";
+        }, 3000);
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Website Moved!</h1>
+        <p>I have changed my website to a new location.</p>
+        <p>You will be redirected automatically in a few seconds...</p>
+        <a href="https://minchev.dev">Visit minchev.dev</a>
+        <div class="loading">Redirecting to my new website...</div>
+    </div>
+</body>
 </html>
